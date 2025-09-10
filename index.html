@@ -211,7 +211,7 @@
         <!-- Slideshow -->
         <div class="slideshow-container h-[500px] md:h-[600px] relative overflow-hidden">
             <div class="slide active">
-                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1200\' height=\'600\' viewBox=\'0 0 1200 600\'><rect width=\'1200\' height=\'600\' fill=\'%23f0c160\'/><path d=\'M0 450 Q 300 300 600 450 T 1200 450 V 600 H 0 Z\' fill=\'%23fdf6e3\'/><circle cx=\'300\' cy=\'250\' r=\'100\' fill=\'%23e8b44c\'/><circle cx=\'900\' cy=\'200\' r=\'80\' fill=\'%23e8b44c\'/></svg>')">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('xis.png')">
                     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                         <div class="text-center px-4">
                             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Pães para sua Lancheria!</h2>
@@ -222,7 +222,7 @@
                 </div>
             </div>
             <div class="slide">
-                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1200\' height=\'600\' viewBox=\'0 0 1200 600\'><rect width=\'1200\' height=\'600\' fill=\'%23b88a30\'/><path d=\'M0 450 Q 300 300 600 450 T 1200 450 V 600 H 0 Z\' fill=\'%23fdf6e3\'/><circle cx=\'400\' cy=\'200\' r=\'120\' fill=\'%23d9a43e\'/><circle cx=\'800\' cy=\'250\' r=\'90\' fill=\'%23d9a43e\'/></svg>')">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('dog.png')">
                     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                         <div class="text-center px-4">
                             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Pães para Xis, Dog, Hambúrguer e muito mais!</h2>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="slide">
-                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1200\' height=\'600\' viewBox=\'0 0 1200 600\'><rect width=\'1200\' height=\'600\' fill=\'%23e8b44c\'/><path d=\'M0 450 Q 300 300 600 450 T 1200 450 V 600 H 0 Z\' fill=\'%23fdf6e3\'/><circle cx=\'600\' cy=\'200\' r=\'150\' fill=\'%23f0c160\'/><circle cx=\'300\' cy=\'300\' r=\'70\' fill=\'%23f0c160\'/><circle cx=\'900\' cy=\'300\' r=\'70\' fill=\'%23f0c160\'/></svg>')">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('cachorrinho.png')">
                     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                         <div class="text-center px-4">
                             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Cachorrinhos para Festa</h2>
@@ -402,7 +402,7 @@
                     <h3 class="text-xl font-bold mb-4">Contato</h3>
                     <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Av. Bento Gonçalves, 6963 - Agronomia - Porto Alegre, RS</p>
                     <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> (51) 99976-6963</p>
-                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> kipaopanificio@gmail.com</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> contato@kipaodosul.com.br</p>
                 </div>
                 
                 <div>
@@ -420,7 +420,7 @@
             </div>
             
             <div class="border-t border-kipao-700 mt-8 pt-6 text-center">
-                <p>&copy; 2025 Panifício Kipão do Sul. Todos os direitos reservados.</p>
+                <p>&copy; 2023 Panifício Kipão do Sul. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
@@ -428,24 +428,23 @@
     <script>
         // Dados dos produtos
         const products = [
+           
             { id: 1, name: "Pão de Hambúrguer com Gergelim", price: 19.00, category: "hamburger", image: "🍔", imgSrc: "hamburguer.png", description: "Pacote com 10 unidades, macio e com gergelim." },
-            { id: 2, name: "Pão de Hambúrguer sem Gergelim", price: 19.00, category: "hamburger", image: "🍔", imgSrc: "hamburguer.png", description: "Pacote com 10 unidades, macio e sem gergelim." },
-            { id: 3, name: "Pão Australiano", price: 21.00, category: "hamburger", image: "🍔", imgSrc: "australiano.png", description: "Pacote com 10 unidades." },
-            { id: 4, name: "Pão Brioche", price: 21.00, category: "hamburger", image: "🍔", imgSrc: "brioche.png", description: "Pacote com 10 unidades." },
-            { id: 5, name: "Pão de Kachurrasco", price: 9.00, category: "especiais", image: "🍔", imgSrc: "baguete.png", description: "Pacote com 5 unidades, tamanho 20cm." },
-            { id: 6, name: "Pão de Baguete", price: 10.00, category: "especiais", image: "🥪", imgSrc: "baguete.png", description: "Pacote com 5 unidades, tamanho 28cm." },
-            { id: 7, name: "Pão de Xis 15cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 5 unidades." },
-            { id: 8, name: "Pão de Xis 17cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 5 unidades." },
-            { id: 9, name: "Pão de Xis 18cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 4 unidades." },
-            { id: 10, name: "Pão de Bauru", price: 10.00, category: "especiais", image: "🥪", imgSrc: "bauru.png", description: "Pacote com 5 unidades." },
-            { id: 11, name: "Doguinho 12cm", price: 13.00, category: "hotdog", image: "🌭", imgSrc: "doguinho.png", description: "Pacote com 10 unidades, 50g." },
-            { id: 12, name: "Pão de Hot Dog 18cm", price: 14.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 8 unidades, 80g." },
-            { id: 13, name: "Pão de Hot Dog 22cm", price: 18.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 10 unidades, 100g." },
-            { id: 14, name: "Pão de Hot Dog 23cm", price: 11.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 6 unidades, 120g." },
-            { id: 15, name: "Pão de Cachorrinho de Festa", price: 40.00, category: "hotdog", image: "🌭", imgSrc: "cachorrinho.png", description: "Pacote com 50 unidades, mini tamanho para festas." },
-            { id: 16, name: "Pão de Mini Hambúrguer", price: 45.00, category: "hamburger", image: "🍔", imgSrc: "miniham.png", description: "Pacote com 50 unidades, para hambúrgueres de festa." },
-            { id: 17, name: "Pão de Xis Farinha", price: 24.00, category: "xis", image: "🍔", imgSrc: "xis.png", description: "Pacote com 12 unidades." },
-            { id: 18, name: "Gelo 10Kg", price: 17.00, category: "especiais", image: "🥪", imgSrc: "gelo.png", description: "Pacote 10Kg." },
+            { id: 2, name: "Pão Australiano", price: 21.00, category: "hamburger", image: "🍔", imgSrc: "australiano.png", description: "Pacote com 10 unidades. Por encomenda." },
+            { id: 3, name: "Pão Brioche", price: 21.00, category: "hamburger", image: "🍔", imgSrc: "brioche.png", description: "Pacote com 10 unidades. Por encomenda." },
+            { id: 4, name: "Pão de Kachurrasco", price: 9.00, category: "especiais", image: "🍔", imgSrc: "kachurrasco.png", description: "Pacote com 5 unidades, tamanho 20cm. Por encomenda." },
+            { id: 5, name: "Pão de Baguete", price: 10.00, category: "especiais", image: "🥪", imgSrc: "baguete.png", description: "Pacote com 5 unidades, tamanho 28cm. Por encomenda." },
+            { id: 6, name: "Pão de Xis 15cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 5 unidades." },
+            { id: 7, name: "Pão de Xis 17cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 5 unidades." },
+            { id: 8, name: "Pão de Xis 18cm", price: 9.00, category: "xis", image: "🥪", imgSrc: "xis.png", description: "Pacote com 4 unidades." },
+            { id: 9, name: "Pão de Bauru", price: 10.00, category: "especiais", image: "🥪", imgSrc: "bauru.png", description: "Pacote com 5 unidades. Por encomenda." },
+            { id: 10, name: "Doguinho 12cm", price: 13.00, category: "hotdog", image: "🌭", imgSrc: "doguinho.png", description: "Pacote com 10 unidades, 50g. Por encomenda." },
+            { id: 11, name: "Pão de Hot Dog 18cm", price: 14.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 8 unidades, 80g." },
+            { id: 12, name: "Pão de Hot Dog 22cm", price: 18.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 10 unidades, 100g." },
+            { id: 13, name: "Pão de Hot Dog 23cm", price: 11.00, category: "hotdog", image: "🌭", imgSrc: "dog.png", description: "Pacote com 6 unidades, 120g." },
+            { id: 14, name: "Pão de Cachorrinho de Festa", price: 40.00, category: "hotdog", image: "🌭", imgSrc: "cachorrinho.png", description: "Pacote com 50 unidades, mini tamanho para festas. Por encomenda." },
+            { id: 15, name: "Pão de Mini Hambúrguer", price: 45.00, category: "hamburger", image: "🍔", imgSrc: "miniham.png", description: "Pacote com 50 unidades, para hambúrgueres de festa. Por encomenda." },
+            { id: 16, name: "Gelo 10Kg", price: 17.00, category: "especiais", image: "🥪", imgSrc: "gelo.png", description: "Pacote 10Kg." },
           
         ];
 
@@ -808,7 +807,15 @@
             document.querySelectorAll('.section-fade').forEach(section => {
                 observer.observe(section);
             });
-        });
+
+    
+    // Fechar o modal do carrinho ao clicar fora dele
+    document.getElementById('cart-modal').addEventListener('click', function(event) {
+        if (event.target === this) {
+            this.classList.add('hidden');
+        }
+    });
+});
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'962ef308107a622e',t:'MTc1MzE0NTQ4My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
